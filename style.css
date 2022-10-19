@@ -1,0 +1,47 @@
+@font-face {
+  font-family:texto;
+  src: url(PixeloidSansBold-RpeJo.ttf);
+}
+body {
+  margin: 0;
+  text-align: center;
+   color: white;
+   background-image: url(http://paxprofundis.org/livros/simbolcript/cobi.gif);
+   font-family: texto;}
+.container{
+  background-color: rgba(0, 0, 0, 0.89);
+  margin: 10%;
+  padding: 10px;}
+h1{
+  text-align: center;
+  text-shadow: 5px;
+  color: rgb(255, 255, 255);}
+a:link {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a{color: inherit;}
+textarea{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  width: min-content;}
+select#select.select{
+text-align: center;
+cursor: pointer;
+display: block;
+position: relative;
+margin: auto;
+width:37%;
+margin-bottom: 10px;
+outline: none;
+font-family: texto;}
+ select:hover{
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    font-family: texto;} 
+label .selecione{
+  display: inline;
+  bottom: auto;}
+button{
+  font-family: texto;}
+button:hover{
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
